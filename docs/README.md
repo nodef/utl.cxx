@@ -12,13 +12,25 @@
 
 # UTL
 
-**UTL** is a collection of small self-contained libraries with a major aim towards usage simplicity. It was mostly created during my work in gamedev and mathematical research for the purpose of fast prototyping.
+**UTL** is a collection of small self-contained libraries with a major aim towards usage simplicity, by [Dmitri Bogdanov](https://github.com/DmitriBogdanov). It was mostly created during my work in gamedev and mathematical research for the purpose of fast prototyping.
 
 For the ease of integration, all libraries are distributed as **individual headers**, which can be found [**here**](../include/UTL).
 
 The entire collection can also be downloaded as an [**amalgamated single-header**](../single_include/UTL.hpp).
 
 CMake [`FetchContent()`](https://cmake.org/cmake/help/latest/module/FetchContent.html) support is also [provided](guide_fetching_library.md).
+
+## Installation
+
+Run:
+```bash
+$ npm i utl.cxx
+```
+
+And then include `UTL.hpp` as follows:
+```cxx
+#include "node_modules/utl.cxx/single_include/UTL.hpp"
+```
 
 ## Design goals
 
@@ -113,3 +125,10 @@ While the library itself consists of isolated headers with no embedded dependenc
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) for details.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/utl.cxx)

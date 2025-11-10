@@ -14,6 +14,11 @@
 !.clangd
 # > Static analysis
 !.cppcheck
+# > Package management
+!.npmignore
+!package.json
+!package-lock.json
+!npm.sh
 
 # Build
 # > CMake

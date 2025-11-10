@@ -1,0 +1,15 @@
+{
+  "name": "utl.cxx",
+  "version": "1.2025.10",
+  "description": "Collection of self-contained header-only libraries for C++17; DmitriBogdanov (2023).",
+  "keywords": ["c", "library", "header-only", "c++17", "utility"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/utl.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/utl.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/utl.cxx#readme"
+}

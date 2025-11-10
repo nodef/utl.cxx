@@ -1,0 +1,14 @@
+.github/
+auxiliary/
+bash/
+benchmarks/
+docs/
+examples/
+tests/
+.clang-format
+.clang-tidy
+.clangd
+.cppcheck
+.gitattributes
+actions.sh
+mkdocs.yml
